@@ -1,0 +1,5 @@
+/data/
+/work/
+/.deps/
+/.venv/
+__pycache__/
