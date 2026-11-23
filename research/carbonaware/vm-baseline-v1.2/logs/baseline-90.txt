@@ -1,0 +1,5 @@
+Scenario: baseline-90
+Input: research\carbonaware\synthetic-v1\results\workload-90.csv
+Java exit code: 0
+Wall-clock seconds: 15.1956305
+workload-90.csv: 31,479/31,479 completed, 28,827 late, 1,016 VMs, peak 6,341 queued. IT energy 341.799835 kWh + 87.327108 kWh drain. Service end 111083.599487 s, simulator end 112883.599487 s.

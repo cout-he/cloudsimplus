@@ -1,0 +1,4 @@
+CloudSim Plus upstream PowerSpecFileExample compiled with the current framework classes.
+Completed tasks: 8 / 8
+Host  0 CPU Usage mean:   50.0% | Power Consumption mean:      147 W
+Host  1 CPU Usage mean:   50.0% | Power Consumption mean:      147 W

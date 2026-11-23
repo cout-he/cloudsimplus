@@ -1,0 +1,20 @@
+JDK 25.0.5.1 with Maven 3.9.16
+Targeted: -Dtest=VmBaselineReplayTest,CarbonDatacenterIT,SyntheticCpuWorkloadTest test
+Full: verify with UtilizationModelPlanetLabTest excluded for its existing Windows fixture-path errors, explicit target/classes on the Failsafe classpath, and Javadoc skipped.
+=== maven-small.log ===
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.087 s -- in org.cloudsimplus.experiments.carbon.replay.VmBaselineReplayTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS
+=== maven-verify.log ===
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s -- in org.cloudsimplus.core.EventsSentBeforeStartTest
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.318 s -- in org.cloudsimplus.core.FactoryMethodsTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.289 s -- in org.cloudsimplus.experiments.carbon.replay.VmBaselineReplayTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s -- in org.cloudsimplus.heuristics.CloudletToVmMappingSolutionTest
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s -- in org.cloudsimplus.listeners.ListenersTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in org.cloudsimplus.resources.CoreCapacityTest
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.108 s -- in org.cloudsimplus.schedulers.cloudlet.CloudletSchedulerTimeSharedTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s -- in org.cloudsimplus.schedulers.vm.VmSchedulerTimeSharedTest
+[INFO] Tests run: 830, Failures: 0, Errors: 0, Skipped: 0
+[INFO] --- failsafe:3.5.3:integration-test (default) @ cloudsimplus ---
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS
