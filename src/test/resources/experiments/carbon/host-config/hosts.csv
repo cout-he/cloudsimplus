@@ -1,0 +1,3 @@
+class,count,manufacturer,model,cpu,cores_per_host,threads_per_host,ram_gb,network_mbps,storage_mb,mips_per_core_reference,power_file,spec_url
+A,76,Supermicro,AS-1015SV-WTNRT,AMD EPYC 8224PN,24,48,96,10000,1000000,3091,power-specs/host_A_24core_96GB.txt,https://www.spec.org/power_ssj2008/results/res2023q3/power_ssj2008-20230912-01314.html
+B,36,Lenovo,ThinkEdge SE360 V2,Intel Xeon D-2775TE,16,32,64,1000,480000,2000,power-specs/host_B_16core_64GB.txt,https://www.spec.org/power_ssj2008/results/res2024q1/power_ssj2008-20240130-01362.html
